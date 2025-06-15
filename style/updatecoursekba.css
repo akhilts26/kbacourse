@@ -1,0 +1,65 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: #f2e8fe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -8px;
+    height: 60px;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+.main-frame{
+    /* border: 1px solid; */
+    height: 700px;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main-frame form{
+    /* border: 1px solid; */
+    border-radius: 6px;
+    width: 550px;
+    height: 440px;
+    background-color: #f2e8fe;
+    margin-top: 10px ;
+}
+.main-frame form h2{
+    color: #6f24a9;
+    margin-bottom: 10px;
+    text-align: center ;
+
+}
+.main-frame form p{
+    margin-left: 12px;
+    line-height: 0px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.text::placeholder{
+    padding-left: 10px;
+}
+.text{
+    border-radius: 3px;
+    width: 488px;
+    height: 30px;
+    margin-left: 12px;
+    border: none;
+}
+.Update-course-button{
+    background-color: #a854f6;
+    margin-left: 20px;
+    width: 492px;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
+}

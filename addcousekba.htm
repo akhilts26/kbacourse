@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addcousekba</title>
+    <link rel="stylesheet" href="style/addcousekba.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <img src="images/kba.jpeg" alt="kba logo" width="40px" height="40px" >
+        </div>
+        <div>
+            <a href="homepage.htm">Home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="learmorekba.htm">Course &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="contactus.htm">Contact us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="addcousekba.htm">Add course &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="homepage.htm">logout &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+    </nav>
+    <div class="main-frame">
+        <form>
+            <h2>Add Course</h2>
+            <table cellspacing="10px">
+                <tr>
+                    <td><p>Course Name<br></p>
+                    <input type="text" class="text" placeholder="eg: Certified Blockchain Associate" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Course id<br></p>
+                        <input type="number" class="text"  placeholder="eg: 1" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Course Type<br></p>
+                        <select class="text">
+                            <option selected>Self-Placed</option>
+                            <option>option1</option>
+                            <option>option1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Description<br></p>
+                        <textarea class="text" name="Description" placeholder="small Description on the course" id="" rows="5" cols="35" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Price<br></p>
+                        <select class="text"  name="" id="">
+                            <option>Rs : 5000</option>
+                            <option>Rs : </option>
+                        </select>
+
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Add Course" class="add-course-button">
+        </form>
+    </div>
+
+</body>
+</html>
